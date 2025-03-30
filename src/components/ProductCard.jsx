@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
 
     return (
         <div className="bg-white rounded-lg overflow-hidden shadow-md w-full sm:w-55">
-            {/* Product Image with Size Label */}
+           
             <div className="relative bg-[url('/section1bg.png')] p-4 flex justify-center items-center h-40 sm:h-48">
                 <span className="absolute top-2 left-2 bg-white px-3 py-1 rounded-full text-gray-700 text-sm font-medium">
                     {product.size}
@@ -56,7 +56,7 @@ const ProductCard = ({ product }) => {
                     </div>
                 </div>
 
-                {/* Add to Cart Button */}
+            
                 <button className="w-full bg-blue-900 text-white py-2 rounded hover:bg-blue-800 transition">
                     Add to Cart
                 </button>

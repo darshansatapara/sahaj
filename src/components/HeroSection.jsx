@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ProcessSection from './ProcessSection';
 import useAuthStore from '@/store/useAuthStore';
 
 const HomePageSection = () => {
@@ -52,8 +51,6 @@ const HomePageSection = () => {
                             </Link>
                         )}
                     </div>
-
-
 
                     <div className="flex items-center space-x-4">
                         <Link

@@ -8,7 +8,7 @@ const YoutubeSection = () => {
         <>
             <section className="bg-amber-100 py-8 md:py-12 px-2">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-                    {/* Left Content */}
+
                     <div className="max-w-lg md:ml-16 text-center md:text-left">
                         <h2 className="text-2xl md:text-4xl font-bold text-gray-900 leading-snug">
                             <span className="text-yellow-500">WHY GROUNDNUT OIL</span> <br /> IS BEST FOR HEALTH?
@@ -18,7 +18,7 @@ const YoutubeSection = () => {
                             Subscribe Now
                         </button>
 
-                        {/* Stats Section */}
+                        {/* Status Section */}
                         <div className="flex justify-center md:justify-start items-center gap-8 mt-6">
                             <div className="flex items-center gap-2">
                                 <FaYoutube className="text-red-600 text-3xl" />
@@ -50,19 +50,19 @@ const YoutubeSection = () => {
                         </div>
                     </div>
 
-                    {/* Right Image */}
+
                     <div className="relative mt-10 md:mt-0 overflow-hidden -bottom-8 md:-bottom-12">
-                        {/* Background Circle */}
+
                         <div className="absolute  -bottom-20 md:-bottom-30 right-2 md:bg-yellow-500 rounded-full w-40 h-40 md:w-100 md:h-100 z-0"></div>
 
-                        {/* Farmer Image */}
+
                         <img
                             src="/valasahaj2.png"
                             alt="Gujarati Farmer"
                             className="relative z-10 right-0 md:right-10 w-[80vw] md:w-[45vw] -bottom-4 md:-bottom-12 h-auto md:h-[65vh] object-cover"
                         />
 
-                        {/* Speech Bubble */}
+
                         <div className="absolute -top-2 right-4 md:right-8">
                             <Image
                                 src="/samjavu2.png"

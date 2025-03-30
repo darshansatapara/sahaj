@@ -1,18 +1,3 @@
-// 'use client'
-// import React from 'react';
-// import Image from 'next/image';
-
-// const ProcessCard = ({ imageSrc, title, bgColor }) => {
-//     return (
-//         <div className={`flex flex-col items-center justify-center p-6 rounded-lg  ${bgColor} w-[150px] h-[200px]`}>
-//             <Image src={imageSrc} alt={title} width={100} height={100} />
-//             <p className="mt-4 text-center font-bold ">{title}</p>
-//         </div>
-//     );
-// };
-
-// export default ProcessCard;
-
 'use client'
 import React from 'react';
 import Image from 'next/image';

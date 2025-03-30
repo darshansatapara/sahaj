@@ -1,4 +1,3 @@
-// components/Footer.jsx
 'use client'
 import Link from 'next/link';
 import Image from 'next/image';
@@ -9,7 +8,7 @@ const Footer = () => {
         <footer className="bg-[#003366] text-white py-12">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    {/* Logo and Description */}
+                  
                     <div className="flex flex-col items-start">
                         <div className="mb-4">
                             <Image
@@ -26,7 +25,6 @@ const Footer = () => {
 
                     </div>
 
-                    {/* Navigation */}
                     <div>
                         <h3 className="text-xl font-medium mb-4">Navigation</h3>
                         <ul className="space-y-3">
@@ -40,7 +38,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Factory Outlets */}
+                   
                     <div>
                         <h3 className="text-xl font-medium mb-4">Factory Outlets</h3>
                         <ul className="space-y-3">
@@ -54,7 +52,6 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Address and Contact */}
                     <div>
                         <h3 className="text-xl font-medium mb-4">Address</h3>
                         <p className="mb-4">
