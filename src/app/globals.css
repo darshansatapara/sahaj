@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.gujarati-text {
+  font-family: 'Gujarati MT', system-ui, -apple-system, sans-serif;
+}
+
+.bg-wood-texture {
+  background-color: #8B4513;
+  color: white;
+  border-radius: 8px;
+}
