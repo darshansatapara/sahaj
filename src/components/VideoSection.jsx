@@ -6,7 +6,7 @@ const VideoSection = () => {
             <div className="w-full  h-full">
                 <iframe
                     className="w-full h-full rounded-lg shadow-lg"
-                    src="https://www.youtube.com/AtLqyDmTefk"
+                    src="https://www.youtube.com/embed/AtLqyDmTefk"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

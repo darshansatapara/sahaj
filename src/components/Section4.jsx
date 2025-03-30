@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import ProductCard from './ProductCard';
+import ProductCard from '@/components/ProductCard';
 
 const ProductSection = () => {
     const products = [

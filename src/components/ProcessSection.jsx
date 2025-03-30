@@ -1,7 +1,6 @@
 'use client'
 import React from 'react';
 import ProcessCard from './ProcessCard';
-import Image from 'next/image';
 
 const ProcessSection = () => {
     const steps = [
