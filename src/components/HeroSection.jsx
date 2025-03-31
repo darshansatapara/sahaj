@@ -12,7 +12,7 @@ const HomePageSection = () => {
         <>
             <div className="relative w-full h-auto md:h-auto lg:h-auto  bg-[url('/section1bg.png')] bg-cover bg-center overflow-hidden">
                 {/* Navbar */}
-                <nav className="relative flex items-center justify-between py-3 bg-transparent bg-opacity-10 px-4 md:px-8 lg:px-10">
+                <nav className="relative flex items-center justify-between py-3 bg-transparent bg-opacity-10 px-4 md:px-8 lg:px-10 z-10">
                     <div className="flex items-center w-[100px] lg:w-[180px]">
                         <Image
                             src="/logo.png"
@@ -193,12 +193,6 @@ const HomePageSection = () => {
                                     <p className="text-[#EFEDB3] font-bold">1-Ltr(910gm)</p>
                                     <p
                                         className="text-[#EFEDB3] font-bold rotate-2 pt-1"
-                                        style={{
-                                            textShadow:
-                                                window.innerWidth >= 768
-                                                    ? '4px 4px 0 #a16207, -4px -4px 0 #a16207, 4px -4px 0 #a16207, -4px 4px 0 #a16207'
-                                                    : '2px 2px 0 #a16207, -2px -2px 0 #a16207, 2px -2px 0 #a16207, -2px 2px 0 #a16207',
-                                        }}
 
                                     >
                                         ઘાણીનું સીંગતેલ

@@ -1,14 +1,21 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useAuthStore from "@/store/useAuthStore";
-
+import { useRouter } from "next/navigation";
 const Login = () => {
+    const router = useRouter();
+    const user = useAuthStore((state) => state.user);
     const { login } = useAuthStore();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);
 
+    useEffect(() => {
+        if (user) {
+            router.push("/");
+        }
+    }, [user]);
     const handleSubmit = async (e) => {
         e.preventDefault();
         setError(null);
@@ -61,7 +68,7 @@ const Login = () => {
                 </form>
                 <p className="text-center text-gray-600 mt-4">
                     Don't have an account?
-                    <a href="/register" className="text-blue-500 hover:underline">
+                    <a href="/signup" className="text-blue-500 hover:underline">
                         Sign Up
                     </a>
                 </p>
