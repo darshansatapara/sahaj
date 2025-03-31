@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    transpilePackages: ['rc-util'],
+  transpilePackages: ['@rc-component/util', 'rc-util'],
+  experimental: {
+    esmExternals: 'loose'
+  }
 };
 
 export default nextConfig;
